@@ -1,0 +1,412 @@
+/* ******* LIMPAR FORMATAÇÕES ******* */
+
+/* Remove margens, preenchimentos e define box-sizing para controle mais preciso */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ******* HEADER ******* */
+
+/* Estilização do cabeçalho principal da página */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #444444;
+}
+
+/* Área que contém o logo */
+#logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Nome destacado no logo */
+.nome {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #000;
+    padding-right: 20px;
+}
+
+/* Subtítulo do logo */
+.subtitulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ccc;
+}
+
+/* Navegação (links do menu) */
+#navegacao {
+    padding: 10px;
+}
+
+/* Estilo para os links do menu */
+header a:link,
+header a:visited {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ccc;
+    padding: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Estilo ao passar o mouse nos links do menu */
+header a:hover {
+    color: #fff;
+}
+
+/* Barra separadora entre os itens do menu */
+.barra {
+    padding: 4px;
+    font-weight: bold;
+}
+
+
+/* ******* CONTENT (SEÇÃO SOBRE MIM) ******* */
+
+/* Container da seção "Sobre Mim" */
+#sobreMim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #dcd8d8;
+}
+
+/* Espaçamento à direita da imagem */
+#foto {
+    padding-right: 50px;
+}
+
+/* Estilo da imagem pessoal */
+#foto img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
+/* Container com o conteúdo textual da apresentação */
+#conteudoApresentacao {
+    width: 500px;
+}
+
+/* Título principal da apresentação */
+#tituloApresentacao {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo da apresentação */
+#subtituloApresentacao {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Texto da apresentação */
+#textoAPresentacao {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* ******* SEÇÃO DE FORMAÇÃO EDUCACIONAL ******* */
+
+/* Container principal da seção */
+#formacaoEducacional {
+    background-color: #418655;
+    padding: 80px 40px;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    justify-items: center;
+}
+
+/* Título centralizado da seção */
+.tituloFormacao {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #18231c;
+}
+
+/* Containers individuais de conteúdo */
+#educacao, #habilidades {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Título da sub-seção de educação */
+#educacao h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+/* Bloco de cada curso listado */
+.curso {
+    background-color: #dcd8d8;
+    padding: 20px 30px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-left: 5px solid #5C1D1D;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Título de cada curso */
+.curso h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Descrição de cada curso */
+.curso p {
+    font-size: 15px;
+    color: #555;
+}
+
+/* Título da sub-seção de habilidades */
+.tituloHabilidade {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #18231c;
+}
+
+/* Remove os marcadores de lista */
+#habilidades li {
+    list-style: none;
+}
+
+/* Bloco de cada habilidade */
+.habilidade {
+    background-color: #dcd8d8;
+    padding: 20px 30px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-left: 5px solid #5C1D1D;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.habilidade h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+
+/* ******* SEÇÃO DO PORTFÓLIO ******* */
+
+/* Container principal da seção de projetos */
+#portfolio {
+    background-color: #9C5959;
+    padding: 80px 40px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+/* Título da seção */
+.topo {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+/* Container dos projetos (flex) */
+.projetos {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Bloco de cada projeto */
+.projeto {
+    background-color: #dcd8d8;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #1D3323;
+}
+
+/* Título do projeto */
+.projeto h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Descrição do projeto */
+.projeto p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Botão/Link do projeto */
+.projeto a {
+    text-decoration: none;
+    color: white;
+    background-color: #1D3323;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* Efeito hover no botão do projeto */
+.projeto a:hover {
+    background-color: #0c1910;
+}
+
+
+/* ******* SEÇÃO DE CONTATO ******* */
+
+/* Container principal da seção de contato */
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 100px;
+    font-family: 'Inter', sans-serif;
+    border-top: 2px solid #666;
+    background-color: #444444;
+}
+
+/* Formulário de contato */
+#formularioContato {
+    background-color: #BABABA;
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+/* Título do formulário */
+#tituloContato {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Campos do formulário */
+#formularioContato input,
+#formularioContato textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+/* Foco nos campos */
+#formularioContato input:focus,
+#formularioContato textarea:focus {
+    border-color: #7070dd;
+    outline: none;
+    box-shadow: 0 0 5px rgba(112, 112, 221, 0.5);
+}
+
+/* Botão do formulário */
+#formularioContato button {
+    width: 100%;
+    padding: 12px;
+    background-color: #666;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Efeito hover no botão */
+#formularioContato button:hover {
+    background-color: #303030;
+}
+
+/* Bloco com as redes sociais */
+#redesSociais {
+    background-color: #bababa;
+    padding: 25px;
+    border-radius: 16px;
+    border: 1px solid #000;
+    width: 320px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Título das redes */
+#redesSociais h3 {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 6px;
+}
+
+/* Texto explicativo das redes */
+#redesSociais p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* Estilização dos ícones de redes sociais */
+.rede-item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rede-item img {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+}
+
+/* ******* RESPONSIVIDADE ******* */
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    #formacaoEducacional {
+        grid-template-columns: 1fr;
+    }
+
+    #contato {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .projetos {
+        flex-direction: column;
+    }
+}

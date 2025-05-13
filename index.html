@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Definindo o charset e a configuração da viewport para dispositivos móveis -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página, que aparece na aba do navegador -->
+    <title>CV Giovana Isis</title>
+    
+    <!-- Link para o arquivo CSS externo para estilização -->
+    <link rel="stylesheet" href="CSS/estilizacao.css">
+    
+    <!-- Conexão com o Google Fonts para usar a fonte "Inter" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Logo com o nome e subtítulo -->
+        <div id="logo">
+            <span class="nome">Giovana Isis</span>
+            <span class="subtitulo">Estudante de Engenharia de Software</span>
+        </div>
+    
+        <!-- Navegação do site, com links para diferentes seções -->
+        <nav id="navegacao">
+            <a href="#sobreMim">Sobre Mim</a>
+            <span class="barra">|</span>
+            <a href="#formacaoEducacional">Formação Educacional</a>
+            <span class="barra">|</span>
+            <a href="#portfolio">Portfólio</a>
+            <span class="barra">|</span>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção "Sobre Mim" com informações pessoais -->
+        <section id="sobreMim">
+            <div id="foto">
+                <!-- Foto de Giovana -->
+                <img src="imagens/FotoGiovana.jpeg">
+            </div>
+            <div id="apresentacaoPessoal">
+                <div id="conteudoApresentacao">
+                    <h2 id="tituloApresentacao">Giovana Isis</h2>
+                    <br>
+                    <h3 id="subtituloApresentacao">Um pouco sobre mim</h3>
+                    <br>
+                    <div id="textoAPresentacao">
+                        <p>
+                            <!-- Parágrafo de introdução pessoal -->
+                            Tenho 19 anos, sou formada no curso Técnico de Desenvolvimento de Sistemas pela ETEC, e atualmente estou cursando Engenharia de Software na Uninter (à distância) e Análise e Desenvolvimento de Sistemas na Fatec (presencialmente). Sou apaixonada por tecnologia, matemática, raciocínio lógico e também amo animais, estou sempre em busca de novos desafios e aprendizados.
+                        </p>
+                        <br>
+                        <p>
+                            <!-- Experiência com loja online e habilidades adquiridas -->
+                            Sou fundadora da loja online Pontos Constelares, especializada em amigurumi, onde crio e vendo produtos feitos à mão. Gerenciar a loja me proporcionou habilidades valiosas como empreendedorismo, gestão de tempo, marketing digital e atendimento ao cliente. Além disso, desenvolvi competências criativas e técnicas ao criar produtos únicos e personalizar o atendimento para cada cliente. 
+                        </p>
+                        <br>
+                        <p>
+                            <!-- Interesses e hobbies pessoais -->
+                            Nos meus momentos de lazer, gosto de ler, criar peças de crochê e me conectar com os animais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Formação Educacional -->
+        <section id="formacaoEducacional">
+            <div id="educacao">
+                <h2 class="tituloFormacao">Formação Acadêmica</h2>
+                <!-- Detalhes sobre cursos e instituições -->
+                <div class="curso">
+                    <h3>Ensino Superior: Engenharia de Software (EAD) </h3>
+                    <p><strong>UNINTER</strong> — Centro Universitário Internacional</p>
+                    <p><em>Em andamento • Início: 02/2024</em></p>
+                </div>
+                <div class="curso">
+                    <h3>Ensino Superior: Análise e Desenvolvimento de Sistemas</h3>
+                    <p><strong>FATEC</strong> — Fatec Santana de Parnaíba</p>
+                    <p><em>Em andamento • Início: 02/2024</em></p>
+                </div>
+                <div class="curso">
+                    <h3>Ensino Técnico: Desenvolvimento de Sistemas (EAD)</h3>
+                    <p><strong>ETEC</strong> — ETEC Profº André Bogasian</p>
+                    <p><em>Concluído em 07/2024</em></p>
+                </div>
+                <div class="curso">
+                    <h3>Ensino Médio: Ênfase em Linguagens, Ciências Humanas e Sociais</h3>
+                    <p><strong>ETEC</strong> — ETEC Gino Rezaghi</p>
+                    <p><em>Concluído em 12/2023</em></p>
+                </div>
+            </div>
+
+            <!-- Seção de habilidades -->
+            <div id="habilidades">
+                <h2 class="tituloHabilidade">Habilidades</h2>
+                <ul>
+                    <li class="habilidade"><h3>Inglês — Básico</h3></li>
+                    <li class="habilidade"><h3>Pacote Office (Word, Excel, PowerPoint) — Intermediário</h3></li>
+                    <li class="habilidade"><h3>Lógica de programação — Intermediário</h3></li>
+                    <li class="habilidade"><h3>Git e GitHub — Intermediário</h3></li>
+                    <li class="habilidade"><h3>Raciocínio Lógico — Intermediário</h3></li>
+                    <li class="habilidade"><h3>Escrita — Intermediário</h3></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção de Portfólio com projetos -->
+        <section id="portfolio">
+            <div class="topo">
+                <h2>Portfólio</h2>
+                <p>Projetos desenvolvidos ao longo do curso e de forma independente:</p>
+            </div>
+            <div class="projetos">
+                <!-- Projeto 1 -->
+                <div class="projeto">
+                    <h3>Site de Currículo</h3>
+                    <p>Um site pessoal básico desenvolvido com HTML e CSS, apresentando informações como perfil, formação e contato.</p>
+                    <a href="https://github.com/GiIsis/curriculo-site" target="_blank">Ver no GitHub</a>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="projeto">
+                    <h3>Estrutura de Dados - FATEC</h3>
+                    <p>Repositório com códigos desenvolvidos durante a disciplina de Estrutura de Dados, com implementações em C e exercícios práticos.</p>
+                    <a href="https://github.com/seu-usuario/seu-repositorio" target="_blank">Ver no GitHub</a>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="projeto">
+                    <h3>Projeto 3: Loja Pontos Constelares</h3>
+                    <p>Loja online de produtos artesanais em amigurumi, com identidade visual personalizada e divulgação via redes sociais.</p>
+                    <a href="https://www.instagram.com/pontosconstelares" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato">
+            <!-- Formulário de contato -->
+            <div id="formularioContato">
+                <h2 id="tituloContato">ENTRE EM CONTATO:</h2>
+                <form action="#" method="POST">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="5" cols="40" required></textarea><br><br>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <!-- Links para redes sociais -->
+            <div id="redesSociais">
+                <h3>REDES SOCIAIS</h3>
+                <p>Se você tiver alguma dúvida sobre meus serviços ou quiser apenas bater um papo, estou à disposição! Sinta-se à vontade para entrar em contato comigo pelas redes sociais ou por e-mail, listados abaixo:</p>
+
+                <div class="rede-item">
+                    <a href="https://github.com/GiIsis" target="_blank">
+                        <img src="imagens/githublogo.png" alt="GitHub">
+                    </a>
+                    <a href="mailto:gigisis.f.s@gmail.com" target="_blank">
+                        <img src="imagens/emailicon.png" alt="E-mail">
+                    </a>
+                    <a href="https://www.instagram.com/gigi_isis_" target="_blank">
+                        <img src="imagens/iconInstagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
