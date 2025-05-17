@@ -1,6 +1,6 @@
 # CV Giovana Isis
 
-Site pessoal de Giovana Isis, estudante de Engenharia de Software, com informações sobre perfil, formação, portfólio e contato.
+Olá, sou Giovana Isis, estudante de Engenharia de Software. Este é um site pessoal desenvolvido para o trabalho da disciplina de Aplicações WEB e Móveis, ele possui informações sobre perfil, formação, portfólio e contato. 
 
 ---
 
@@ -15,7 +15,7 @@ Site pessoal de Giovana Isis, estudante de Engenharia de Software, com informaç
 ## Estrutura
 
 - `index.html` — página principal
-- `estilizacao.css` — estilos
+- `style.css` — estilos
 - `imagens/` — fotos e ícones usados
 
 ---
